@@ -1,0 +1,74 @@
+/* Reset Inicial */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px auto;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#container{
+    margin-top: 5vh;
+    box-shadow: 0 0 100px 0 #000000, inset 0 0 10px 0 #000000;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+#form-tab{
+    width: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+#form-tab .numbers{
+    display: flex;
+    flex-direction: column;
+}
+#form-tab .botoes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+#form-tab .numbers label{
+    margin-bottom: 5px;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+#form-tab .numbers input{
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f0f0f0;
+    box-shadow: 0 0 100px 0 #000000, inset 0 0 10px 0 #000000;
+}
+#form-tab .botoes button{
+    margin-top: 20px;
+    font-size: 1.5rem;
+    padding: 10px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    box-shadow: 0 0 100px 0 #000000, inset 0 0 10px 0 #000000;
+    transition: all 0.3s;
+}
+
+#form-tab .botoes button:hover{
+    background-color: #000000;
+    color: #f0f0f0;
+}
+
